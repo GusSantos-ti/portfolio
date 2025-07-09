@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Gustavo Santos</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Fontes (substitua pelos links das suas fontes) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Ícones (Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="bg-1">
+        <!-- Header Justificado (3 pontos | Cargo | Nome) -->
+        <header class="header">
+            <div class="header-left">···</div>
+            <div class="header-center">Técnico em TI</div>
+            <div class="header-right">GUSTAVO SANTOS</div>
+        </header>
+
+
+        <!-- Seção Hero -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h2 class="hero-portfolio">PORTFÓLIO</h2>
+            </div>
+            <div class="hero-image">
+                <img src="https://i.imgur.com/3XElv2I.png" alt="Foto de Gustavo Santos">
+            </div>
+        </section>
+
+
+        <!-- Seção Sobre Mim -->
+        <section class="about" id="about">
+            <div class="about-container">
+
+                <div class="about-right">
+                    <div class="about-left">
+                        <h3 class="about-subtitle">SOBRE MIM</h3>
+                    </div>
+                    <p class="about-text">
+                        <br><br>
+                        Estudante de Análise e Desenvolvimento de Sistemas com foco em construir soluções tecnológicas
+                        alinhadas às demandas do mercado. Minha formação combina fundamentos sólidos em engenharia de
+                        software, bancos de dados e arquitetura de sistemas, enquanto exploro áreas como desenvolvimento
+                        full-stack, cloud computing e segurança da informação.
+                        <br><br>
+                        Acredito que a tecnologia eficiente nasce da intersecção entre código bem estruturado,
+                        usabilidade e escalabilidade. Por isso, além da técnica, dedico-me a entender metodologias
+                        ágeis, boas práticas de DevOps e princípios de UX, sempre buscando entregar projetos que sejam
+                        funcionais, sustentáveis e adaptáveis.
+
+                    </p>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+
+
+
+    <!-- Seção Habilidades -->
+    <section class="skills" id="skills">
+        <div class="skills-container">
+            <div class="skills-left">
+                <h3 class="skills-subtitle">HABILIDADES</h3>
+            </div>
+            <div class="skills-right">
+                <div class="skills-grid">
+                    <!-- Grupo 1 -->
+                    <div class="skill-category">
+                        <h4 class="category-title">Técnicas</h4>
+                        <ul class="skill-list">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>MYSQL</li>
+                            <li>PACOTE OFFICE</li>
+                        </ul>
+                    </div>
+
+                    <!-- Grupo 3 -->
+                    <div class="skill-category">
+                        <h4 class="category-title">Soft Skills</h4>
+                        <ul class="skill-list">
+                            <li>Resolução de Problemas</li>
+                            <li>Trabalho em Equipe</li>
+                            <li>Gestão de Tempo</li>
+                            <li>Comunicação Clara</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Seção Contato -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <!-- Coluna da Imagem (nova) -->
+            <div class="contact-image">
+                <img src="https://i.imgur.com/nUu77Wj.jpeg" alt="Imagem de contato">
+            </div>
+
+            <!-- Coluna do Conteúdo -->
+            <div class="contact-content">
+                <h3 class="contact-subtitle">CONTATO</h3>
+
+                <div class="contact-info">
+                    <p class="contact-text">
+                        Estou aberto a oportunidades e colaborações. Entre em contato através dos canais abaixo:
+                    </p>
+
+                    <div class="contact-links">
+                        <!-- WhatsApp -->
+                        <a href="https://wa.link/2pasez" target="_blank" class="contact-link">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp</span>
+                        </a>
+
+                        <!-- LinkedIn -->
+                        <a href="https://linkedin.com/in/gustavo-g-b-santos-a40911257" target="_blank"
+                            class="contact-link">
+                            <i class="fab fa-linkedin-in"></i>
+                            <span>LinkedIn</span>
+                        </a>
+
+                         <a href="https://drive.google.com/file/d/1wwQZJUOI2P18ATJ3toveJ02AUPBKlib5/view?pli=1" target="_blank" class="contact-link" download>
+        <i class="fas fa-file-pdf"></i>
+        <span>Currículo</span>
+    </a>
+
+                        <!-- Formulário de Contato -->
+                        <form class="contact-form" action="https://formsubmit.co/workgus.2002@gmail.com"
+                            method="POST">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_next" value="https://gussantos-ti.github.io/portfolio/obrigado.html">
+
+                            <div class="form-group">
+                                <input type="text" name="name" id="name" required>
+                                <label for="name">Nome Completo</label>
+                            </div>
+
+                            <div class="form-group">
+                                <input type="email" name="email" id="email" required>
+                                <label for="email">E-mail</label>
+                            </div>
+
+                            <div class="form-group">
+                                <textarea name="message" id="message" rows="4" required></textarea>
+                                <label for="message">Mensagem</label>
+                            </div>
+
+                            <button type="submit" class="submit-btn">
+                                <i class="far fa-paper-plane"></i> Enviar Mensagem
+                            </button>
+                        </form>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const header = document.querySelector('.header');
+            const aboutSection = document.querySelector('.about');
+            const headerHeight = header.offsetHeight;
+
+            window.addEventListener('scroll', function () {
+                const aboutSectionPosition = aboutSection.getBoundingClientRect().top;
+
+                // Se a seção "Sobre Mim" atingir o topo da viewport + altura do header
+                if (aboutSectionPosition <= headerHeight) {
+                    header.classList.add('header-scrolled');
+                } else {
+                    header.classList.remove('header-scrolled');
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
